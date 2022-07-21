@@ -1,0 +1,24 @@
+{
+  "name": "li-reddit-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^5.2.3",
+    "@mikro-orm/core": "^5.2.3",
+    "@mikro-orm/migrations": "^5.2.3",
+    "@mikro-orm/postgresql": "^5.2.3",
+    "pg": "^8.7.3"
+  }
+}
